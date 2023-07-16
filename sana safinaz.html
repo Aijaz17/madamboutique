@@ -1,0 +1,1788 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madam's Boutique</title>
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="all.min.css">
+
+    <link rel="stylesheet" href="fontawesome.min.css">
+    <!-- online fontawesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="style1.css">
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+
+
+</head>
+
+<body>
+    <!-- THIS IS HEADER SECTION-->
+    <div id="mrque">
+
+
+        <marquee behavior="" direction="left">Get your festive look sorted with Madam's Boutique Collection featuring
+            embroidered fits in fresh colours</marquee>
+    </div>
+    <header class="nav">
+        <div class="logo">
+            <a href="index.html"><img src="./images/logo-removebg-preview.png" alt=""></a>
+        </div>
+        <div class="nav1">
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="brands.html">brands <i class="fa-solid fa-angle-down"></i></a>
+                    <div class="submenu">
+                        <ul>
+                            <li><a href="mariab.html">Maria.b</a></li>
+                            <li><a href="sana safinaz.html">sana safinaz</a></li>
+                            <li><a href="j.html">j.</a></li>
+                            <li><a href="khaddi.html">khaddi</a></li>
+                            <li><a href="sapphire.html">sapphire</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="designers.html">designers<i class="fa-solid fa-angle-down"></i></a>
+                    <div class="submenu sub1">
+                        <ul>
+                            <li><a href="asim.j.html">asim jofa</a></li>
+                            <li><a href="sana safinaz.html">sana safinaz</a></li>
+                            <li><a href="aghanoor.html">agha noor</a></li>
+                            <li><a href="mariab.html">Maria.b</a></li>
+                            <li><a href="MNR.html">MNR</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="accessories.html">accessories</a></li>
+                <li><a href="contact.html">contact</a></li>
+                <li><a href="about.html">about us</a></li>
+            </ul>
+        </div>
+        <div class="icons">
+            <a href=""> <i class="fa-solid fa-bag-shopping"></i></a>
+            <!-- Button trigger modal -->
+
+            <i class="fa-solid fa-right-to-bracket" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
+            <i id="hamberger" class="fa-solid fa-bars"></i>
+        </div>
+
+
+    </header>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">sign in</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="" method="">
+                        <label for="" class="form-label">uesr name </label>
+                        <input type="text" class="form-control">
+                        <label for="" class="form-label">password</label>
+                        <input type="password" class="form-control">
+
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <a href="./index.html"><button type="button" class="btn btn-primary">sign in</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- hearder section end -->
+    <section id="pdng">
+        <div class="logos">
+
+            <a href=""><img src="images/sana safinaz logo.png" alt=""></a>
+
+        </div>
+        <div class="full">
+
+            <a href=""><img src="images/sana.png" alt=""></a>
+
+        </div>
+
+    </section>
+    <div>
+
+        <ul class="nav bg-white position-relative nav-pills mb-3 d-flex justify-content-center mt-4" id="pills-tab"
+            role="tablist">
+            <li class="nav-item" role="presentation">
+
+                <button class="btn btn-outline-warning active outline-none fw-bold shadow-none me-lg-4"
+                    id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab"
+                    aria-controls="pills-home" aria-selected="true">Stitched</button>
+            </li>
+
+            <li class="nav-item" role="presentation">
+
+                <button class="btn btn-outline-warning outline-none shadow-none fw-bold" id="pills-profile-tab"
+                    data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab"
+                    aria-controls="pills-profile" aria-selected="false">Unstiched</button>
+
+            </li>
+
+
+        </ul>
+
+        <div class="tab-content" id="pills-tabContent">
+            <!-- ------------.stitched cards filter btn ----------- -->
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+                tabindex="0">
+
+                <!-- ------------sanasafinz stitched cards 1 ----------- -->
+                <div class="unstitched">
+                    <div class="unstitched-cards">
+                        <img src="./sanasafina/stitch1.png" alt="sana safinaz Stitched collection">
+                        <div class="dress"><img src="./sanasafina/stitch2.png" alt="Sana Safinaz unstitches collection">
+                        </div>
+                        <p class="size"> XS S M L XL</p>
+
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btne" data-bs-toggle="modal" data-bs-target="#exampleModal-0">add
+                            to
+                            cart</button>
+                    </div>
+
+
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal-0" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title " id="exampleModalLabel">SS23BSP232P2D
+                                    </h5>
+
+
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="./sanasafina/stitch1.png" alt=""> <img src="./sanasafina/stitch2.png"
+                                        alt="">
+                                    <h4 class="price">PKR 7,089.00</h4>
+                                    <hr>
+                                    <h6>Details</h6>
+                                    <hr>
+                                    <div class="info-list">
+                                        <ul>
+                                            <li>color</li>
+                                            <li>fabric</li>
+                                            <li>cut</li>
+                                            <li>dupatta</li>
+                                            <li>discription</li>
+                                        </ul>
+                                        <ul>
+                                            <li>blue</li>
+                                            <li>lawn</li>
+                                            <li>boxy</li>
+                                            <li>Lawn Dupatta Included</li>
+                                            <li>Majestic Reverie: Immerse yourself in the opulence of the Mughal era, as
+                                                shades of
+                                                blue dance with regal grace in this enchanting ensemble. </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <a href=""><button type="button" class="btn btn-outline-danger">Buy Now</button></a>
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------------END----------- -->
+
+
+                    <!-- ------------sana safinaz stitched cards 2 ----------- -->
+
+                    <div class="unstitched-cards">
+                        <img src="./sanasafina/stitch3.png" alt="sana safinaz Stitched collection">
+                        <div class="dress"><img src="./sanasafina/stitch4.png" alt="sana safinaz Stitched collection">
+                        </div>
+                        <p class="size"> XS S M L XL</p>
+
+                        <!-- Button trigger modal 2-->
+                        <button type="button" class="btne" data-bs-toggle="modal" data-bs-target="#exampleModal-1">add
+                            to
+                            cart</button>
+                    </div>
+
+
+
+                    <!-- Modal 2 -->
+                    <div class="modal fade" id="exampleModal-1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title " id="exampleModalLabel">S2S3ESE256
+                                    </h5>
+
+
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="./sanasafina/stitch3.png" alt=""> <img src="./sanasafina/stitch4.png"
+                                        alt="">
+                                    <h4 class="price">PKR 7,499.00</h4>
+                                    <hr>
+                                    <h6>Details</h6>
+                                    <hr>
+                                    <div class="info-list">
+                                        <ul>
+                                            <li>color</li>
+                                            <li>fabric</li>
+                                            <li>cut</li>
+                                        
+                                            <li>discription</li>
+                                        </ul>
+                                        <ul>
+                                            <li>peach</li>
+                                            <li>lawn</li>
+                                            <li>basic</li>
+                                       
+                                            <li>Nurtured by Nature: This ensemble is adorned with delicate details
+                                                inspired by the
+                                                wonders of flora and fauna, bringing a touch of organic grace to your
+                                                style. </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <a href=""><button type="button" class="btn btn-outline-danger">Buy Now</button></a>
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------------END----------- -->
+
+                    <!-- ----------- sana safinaz stitched cards 3 ----------- -->
+
+                    <div class="unstitched-cards">
+                        <img src="./sanasafina/stitch5.png" alt="sana safinaz Stitched collection">
+                        <div class="dress"><img src="./sanasafina/stitch6.png" alt="sana safinaz Stitched collection">
+                        </div>
+                        <p class="size"> XS S M L XL</p>
+
+                        <!-- Button trigger modal 3-->
+                        <button type="button" class="btne" data-bs-toggle="modal" data-bs-target="#exampleModal-2">add
+                            to
+                            cart</button>
+                    </div>
+
+
+
+                    <!-- Modal 3-->
+                    <div class="modal fade" id="exampleModal-2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title " id="exampleModalLabel">S2s3bge453
+                                    </h5>
+
+
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="./sanasafina/stitch5.png" alt=""> <img src="./sanasafina/stitch6.png"
+                                        alt="">
+                                    <h4 class="price">PKR 28,239.00</h4>
+                                    <hr>
+                                    <h6>Details</h6>
+                                    <hr>
+                                    <div class="info-list">
+                                        <ul>
+                                            <li>color</li>
+                                            <li>fabric</li>
+                                            <li>cut</li>
+                                            <li>slip</li>
+                                        
+                                            <li>trouser</li>
+                                            <li>discription</li>
+                                        </ul>
+                                        <ul>
+                                            <li>pink</li>
+                                            <li>poly net square</li>
+                                            <li>basic</li>
+                                            <li>Thai Silk Slip Included</li>
+                                       
+                                            <li>Raw Silk Bottom Included</li>
+                                            <li>Nurtured by Nature: This ensemble is adorned with delicate details
+                                                inspired by the
+                                                wonders of flora and fauna, bringing a touch of organic grace to your
+                                                style. </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <a href=""><button type="button" class="btn btn-outline-danger">Buy Now</button></a>
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------------END----------- -->
+
+
+                    <!-- ------------sana safinaz stitched cards 4 ----------- -->
+
+                    <div class="unstitched-cards">
+                        <img src="./sanasafina/stitch7.png" alt="sana safinaz Stitched collection">
+                        <div class="dress"><img src="./sanasafina/stitch8.png" alt="sana safinaz Stitched collection">
+                        </div>
+                        <p class="size"> XS S M L XL</p>
+
+                        <!-- Button trigger modal 4-->
+                        <button type="button" class="btne" data-bs-toggle="modal" data-bs-target="#exampleModal-3">add
+                            to
+                            cart</button>
+                    </div>
+
+
+
+                    <!-- Modal 4-->
+                    <div class="modal fade" id="exampleModal-3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title " id="exampleModalLabel">SS23SGE374
+                                    </h5>
+
+
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="./sanasafina/stitch7.png" alt=""> <img src="./sanasafina/stitch8.png"
+                                        alt="">
+                                    <h4 class="price">PKR 21,259.00</h4>
+                                    <hr>
+                                    <h6>Details</h6>
+                                    <hr>
+                                    <div class="info-list">
+                                        <ul>
+                                            <li>color</li>
+                                            <li>fabric</li>
+                                            <li>cut</li>
+                                            <li>slip</li>
+                                        
+                                         
+                                            <li>discription</li>
+                                        </ul>
+                                        <ul>
+                                            <li>Beige</li>
+                                            <li>Yarn Dyed Zari</li>
+                                            <li>basic</li>
+                                            <li>Thai Silk Slip Included</li>
+                                       
+                                         
+                                            <li>Heritage in Threads: Celebrate tradition with an exquisitely embroidered
+                                                ensemble
+                                                that pays homage to timeless craftsmanship and cultural richness. </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <a href=""><button type="button" class="btn btn-outline-danger">Buy Now</button></a>
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------------END----------- -->
+
+
+                    <!-- ------------sana safinaz stitched cards 5 ----------- -->
+
+                    <div class="unstitched-cards">
+                        <img src="./sanasafina/stitch9.png" alt="sana safinaz Stitched collection">
+                        <div class="dress"><img src="./sanasafina/stitch10.png" alt="sana safinaz Stitched collection">
+                        </div>
+                        <p class="size"> XS S M L XL</p>
+
+                        <!-- Button trigger modal 5-->
+                        <button type="button" class="btne" data-bs-toggle="modal" data-bs-target="#exampleModal-4">add
+                            to
+                            cart</button>
+                    </div>
+
+
+
+                    <!-- Modal 5-->
+                    <div class="modal fade" id="exampleModal-4" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title " id="exampleModalLabel">SS23ESE307
+                                    </h5>
+
+
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="./sanasafina/stitch9.png" alt=""> <img src="./sanasafina/stitch10.png"
+                                        alt="">
+                                    <h4 class="price">PKR 9,959.00</h4>
+                                    <hr>
+                                    <h6>Details</h6>
+                                    <hr>
+                                    <div class="info-list">
+                                        <ul>
+                                            <li>color</li>
+                                            <li>fabric</li>
+                                            <li>cut</li>
+                                            
+                                        
+                                         
+                                            <li>discription</li>
+                                        </ul>
+                                        <ul>
+                                            <li>red</li>
+                                            <li>raw silk</li>
+                                            <li>basic</li>
+                                        
+                                       
+                                         
+                                            <li>Heritage in Threads: Celebrate tradition with an exquisitely embroidered
+                                                ensemble
+                                                that pays homage to timeless craftsmanship and cultural richness. </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <a href=""><button type="button" class="btn btn-outline-danger">Buy Now</button></a>
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------------END----------- -->
+
+                    <!-- ------------sana safinaz stitched cards 6 ----------- -->
+                    <div class="unstitched-cards">
+                        <img src="./sanasafina/stitch11.png" alt="sana safinaz Stitched collection">
+                        <div class="dress"><img src="./sanasafina/stitch12.png" alt="sana safinaz Stitched collection">
+                        </div>
+                        <p class="size"> XS S M L XL</p>
+
+                        <!-- Button trigger modal 6-->
+                        <button type="button" class="btne" data-bs-toggle="modal" data-bs-target="#exampleModal-5">add
+                            to
+                            cart</button>
+                    </div>
+
+
+
+                    <!-- Modal 6-->
+                    <div class="modal fade" id="exampleModal-5" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title " id="exampleModalLabel">SS23BGE415
+                                    </h5>
+
+
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="./sanasafina/stitch11.png" alt=""> <img src="./sanasafina/stitch12.png"
+                                        alt="">
+                                    <h4 class="price">PKR 39,429.00</h4>
+                                    <hr>
+                                    <h6>Details</h6>
+                                    <hr>
+                                    <div class="info-list">
+                                        <ul>
+                                            <li>color</li>
+                                            <li>fabric</li>
+                                            <li>cut</li>
+                                            <li>slip</li>
+                                            <li>dupatta</li>
+                                            <li>trouser</li>
+                                            <li>discription</li>
+                                        </ul>
+                                        <ul>
+                                            <li>Turquoise Green</li>
+                                            <li>cotton net</li>
+                                            <li>Angarkha</li>
+                                            <li>Thai Silk Slip Included</li>
+                                            <li>Thai Silk Dupatta Included</li>
+                                            <li>Raw Silk Gharara Included</li>
+                                            <li>Heritage in Threads: Celebrate tradition with an exquisitely embroidered
+                                                ensemble
+                                                that pays homage to timeless craftsmanship and cultural richness. </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <a href=""><button type="button" class="btn btn-outline-danger">Buy Now</button></a>
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------------END----------- -->
+
+
+                    <!-- ------------sana safinaz stitched cards 7 ----------- -->
+
+                    <div class="unstitched-cards">
+                        <img src="./sanasafina/stitch13.png" alt="sana safinaz Stitched collection">
+                        <div class="dress"><img src="./sanasafina/stitch14.png" alt="sana safinaz Stitched collection">
+                        </div>
+                        <p class="size"> XS S M L XL</p>
+
+                        <!-- Button trigger modal 7-->
+                        <button type="button" class="btne" data-bs-toggle="modal" data-bs-target="#exampleModal-6">add
+                            to
+                            cart</button>
+                    </div>
+
+
+
+                    <!-- Modal 7 -->
+                    <div class="modal fade" id="exampleModal-6" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title " id="exampleModalLabel">SS23BGE414
+                                    </h5>
+
+
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="./sanasafina/stitch13.png" alt=""> <img src="./sanasafina/stitch14.png"
+                                        alt="">
+                                    <h4 class="price"> PKR 47,749.00
+                                    </h4>
+                                    <hr>
+                                    <h6>Details</h6>
+                                    <hr>
+                                    <div class="info-list">
+                                        <ul>
+                                            <li>color</li>
+                                            <li>fabric</li>
+                                            <li>cut</li>
+                                            <li>slip</li>
+                                            <li>dupatta</li>
+                                            <li>trouser</li>
+                                            <li>discription</li>
+                                        </ul>
+                                        <ul>
+                                            <li>peach</li>
+                                            <li>poly Slub</li>
+                                            <li>basic</li>
+                                            <li>Thai Silk Slip Included</li>
+                                            <li>Thai Silk Embroidered Dupatta Included</li>
+                                            <li>Raw Silk Gharara Included</li>
+                                            <li>Subtle Serenity: Embrace the softness of powder blue, accentuated with
+                                                delicate
+                                                silver touches, for an ensemble that emanates a tranquil and
+                                                sophisticated charm.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <a href=""><button type="button" class="btn btn-outline-danger">Buy Now</button></a>
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------------END----------- -->
+
+                    <!-- ------------sana safinaz stitched cards 8 ----------- -->
+
+                    <div class="unstitched-cards">
+                        <img src="./sanasafina/stitch15.png" alt="sana safinaz Stitched collection">
+                        <div class="dress"><img src="./sanasafina/stitch16.png" alt="sana safinaz Stitched collection">
+                        </div>
+                        <p class="size"> XS S M L XL</p>
+
+                        <!-- Button trigger modal 8-->
+                        <button type="button" class="btne" data-bs-toggle="modal" data-bs-target="#exampleModal-7">add
+                            to
+                            cart</button>
+                    </div>
+
+
+
+                    <!-- Modal 8-->
+                    <div class="modal fade" id="exampleModal-7" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title " id="exampleModalLabel">M232-017B-CJ
+                                    </h5>
+
+
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="./sanasafina/stitch15.png" alt=""> <img src="./sanasafina/stitch16.png"
+                                        alt="">
+                                    <h4 class="price">PKR 7,699.00</h4>
+                                    <hr>
+                                    <h6>Details</h6>
+                                    <hr>
+                                    <div class="info-list">
+                                        <ul>
+                                            <li>color</li>
+                                            <li>fabric</li>
+                                            <li>cut</li>
+                                            
+                                            <li>dupatta</li>
+                                            <li>trouser</li>
+                                            <li>discription</li>
+                                        </ul>
+                                        <ul>
+                                            <li>peach</li>
+                                            <li>raw silk</li>
+                                            <li>basic</li>
+                                        
+                                            <li>Poly Satin Digital Dupatta Included</li>
+                                            <li>Raw Silk Tulip Shalwar Included</li>
+                                            <li>Whispering Romance: Unleash Your Inner Charm with a Salmon-Colored
+                                                Attire Adorned
+                                                with Elegant Embroidery and Delicate Lace. </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <a href=""><button type="button" class="btn btn-outline-danger">Buy Now</button></a>
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------------END----------- -->
+
+
+                    <!-- ------------sana safinaz unstitched cards 9 ----------- -->
+
+                    <div class="unstitched-cards">
+                        <img src="./sanasafina/stitch17.png" alt="sana safinaz Stitched collection">
+                        <div class="dress"><img src="./sanasafina/stitch18.png" alt="sana safinaz Stitched collection">
+                        </div>
+                        <p class="size"> XS S M L XL</p>
+
+                        <!-- Button trigger modal 9-->
+                        <button type="button" class="btne" data-bs-toggle="modal" data-bs-target="#exampleModal-8">add
+                            to
+                            cart</button>
+                    </div>
+
+
+
+                    <!-- Modal 9-->
+                    <div class="modal fade" id="exampleModal-8" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title " id="exampleModalLabel">SS23ESE258
+                                    </h5>
+
+
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="./sanasafina/stitch17.png" alt=""> <img src="./sanasafina/stitch18.png"
+                                        alt="">
+                                    <h4 class="price">PKR 10,679.00</h4>
+                                    <hr>
+                                    <h6>Details</h6>
+                                    <hr>
+                                    <div class="info-list">
+                                        <ul>
+                                            <li>color</li>
+                                            <li>fabric</li>
+                                            <li>cut</li>
+                                            
+                                        
+                                         
+                                            <li>discription</li>
+                                        </ul>
+                                        <ul>
+                                            <li>green</li>
+                                            <li>Cotton Brochia</li>
+                                            <li>basic</li>
+                                        
+                                           
+                                            <!-- <li>Raw Silk Tulip Shalwar Included</li> -->
+                                            <li>Timeless Tradition: Celebrate in a Classic Mustard Angharkha That Exudes
+                                                Grace and Heritage </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <a href=""><button type="button" class="btn btn-outline-danger">Buy Now</button></a>
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------------END----------- -->
+
+
+                    <!-- ------------sana safinaz stitched cards 10 ----------- -->
+
+                    <div class="unstitched-cards">
+                        <img src="./sanasafina/stitch19.png" alt="sana safinaz Stitched collection">
+                        <div class="dress"><img src="./sanasafina/stitch20.png" alt="sana safinaz Stitched collection">
+                        </div>
+                        <p class="size"> XS S M L XL</p>
+
+                        <!-- Button trigger modal 10-->
+                        <button type="button" class="btne" data-bs-toggle="modal" data-bs-target="#exampleModal-9">add
+                            to
+                            cart</button>
+                    </div>
+
+
+
+                    <!-- Modal 10-->
+                    <div class="modal fade" id="exampleModal-9" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title " id="exampleModalLabel">SS23SGE373
+                                    </h5>
+
+
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="./sanasafina/stitch19.png" alt=""> <img src="./sanasafina/stitch20.png"
+                                        alt="">
+                                    <h4 class="price">PKR 21,869.00</h4>
+                                    <hr>
+                                    <h6>Details</h6>
+                                    <hr>
+                                    <div class="info-list">
+                                        <ul>
+                                            <li>color</li>
+                                            <li>fabric</li>
+                                            <li>cut</li>
+                                            
+                                        
+                                         
+                                            <li>discription</li>
+                                        </ul>
+                                        <ul>
+                                            <li>blue</li>
+                                            <li>Cotton Net</li>
+                                            <li>maxi</li>
+                                        
+                                           
+                                            <!-- <li>Raw Silk Tulip Shalwar Included</li> -->
+                                            <li>Ethereal Elegance: Radiate Festive Charm in a Mesmerizing Blue Ensemble
+                                                with Silver Embellishments.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <a href=""><button type="button" class="btn btn-outline-danger">Buy Now</button></a>
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------------END----------- -->
+
+                    <!-- ------------sana safinaz stitched cards 11 ----------- -->
+
+                    <div class="unstitched-cards">
+                        <img src="./sanasafina/stitch21.png" alt="sana safinaz Stitched collection">
+                        <div class="dress"><img src="./sanasafina/stitch22.png" alt="sana safinaz Stitched collection">
+                        </div>
+                        <p class="size"> XS S M L XL</p>
+
+                        <!-- Button trigger modal 11-->
+                        <button type="button" class="btne" data-bs-toggle="modal" data-bs-target="#exampleModal-10">add
+                            to
+                            cart</button>
+                    </div>
+
+
+
+                    <!-- Modal 11-->
+                    <div class="modal fade" id="exampleModal-10" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title " id="exampleModalLabel">SS23EXE801
+                                    </h5>
+
+
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="./sanasafina/stitch21.png" alt=""> <img src="./sanasafina/stitch22.png"
+                                        alt="">
+                                    <h4 class="price">PKR 27,519.00</h4>
+                                    <hr>
+                                    <h6>Details</h6>
+                                    <hr>
+                                    <div class="info-list">
+                                        <ul>
+                                            <li>color</li>
+                                            <li>fabric</li>
+                                            <li>cut</li>
+                                            
+                                            <li>dupatta</li>
+                                            <li>trouser</li>
+                                            <li>discription</li>
+                                        </ul>
+                                        <ul>
+                                            <li>Pink</li>
+                                            <li>Raw silk</li>
+                                            <li>baggy</li>
+                                        
+                                            <li>Organza Dupatta Included</li>
+                                            <li>Raw Silk straight pant Included</li>
+                                            <li>How incredible in this pink kaftan shirt for the summers featuring
+                                                detailed work all over.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <a href=""><button type="button" class="btn btn-outline-danger">Buy Now</button></a>
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------------END----------- -->
+
+
+                    <!-- ------------sana safinaz stitched cards 12 ----------- -->
+
+                    <div class="unstitched-cards">
+                        <img src="./sanasafina/stitch23.png" alt="Sana Safinaz Stitched collection">
+                        <div class="dress"><img src="./sanasafina/stitch24.png" alt="sana safinaz Stitched collection">
+                        </div>
+                        <p class="size"> XS S M L XL</p>
+
+                        <!-- Button trigger modal 12-->
+                        <button type="button" class="btne" data-bs-toggle="modal" data-bs-target="#exampleModal-11">add
+                            to
+                            cart</button>
+                    </div>
+
+
+
+                    <!-- Modal 12-->
+                    <div class="modal fade" id="exampleModal-11" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title " id="exampleModalLabel">SS23SGE364
+                                    </h5>
+
+
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="./sanasafina/stitch23.png" alt=""> <img src="./sanasafina/stitch24.png"
+                                        alt="">
+                                    <h4 class="price">PKR 26,189.00</h4>
+                                    <hr>
+                                    <h6>Details</h6>
+                                    <hr>
+                                    <div class="info-list">
+                                        <ul>
+                                            <li>color</li>
+                                            <li>fabric</li>
+                                            <li>cut</li>
+                                            
+                                        
+                                         
+                                            <li>discription</li>
+                                        </ul>
+                                        <ul>
+                                            <li>purple</li>
+                                            <li>Jacquard</li>
+                                            <li>frock</li>
+                                        
+                                           
+                                            <!-- <li>Raw Silk Tulip Shalwar Included</li> -->
+                                            <li>This berry maroon beauty with magnificent embroidery in contrasting hues
+                                                is a timeless piece.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <a href=""><button type="button" class="btn btn-outline-danger">Buy Now</button></a>
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------------END----------- -->
+
+                </div>
+
+
+
+            </div>
+
+
+
+
+            <!-- ------------.unstitched cards filter btn ----------- -->
+
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
+                tabindex="0">
+
+                <!-- ------------sanasafinz unstitched cards 1 ----------- -->
+                <div class="unstitched">
+                    <div class="unstitched-cards">
+                        <img src="./sanasafina/un-1.png" alt="sana safinaz unstitched collection">
+                        <div class="dress"><img src="./sanasafina/un-2.png" alt="Sana Safinaz unstitches collection">
+                        </div>
+
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btne" data-bs-toggle="modal" data-bs-target="#exampleModal-12">add
+                            to
+                            cart</button>
+                    </div>
+
+
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal-12" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title " id="exampleModalLabel">M232-020A-CJ
+                                    </h5>
+
+
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="./sanasafina/un-1.png" alt=""> <img src="./sanasafina/un-2.png" alt="">
+                                    <h4 class="price">PKR 7,499.00</h4>
+                                    <hr>
+                                    <h6>Details</h6>
+                                    <hr>
+                                    <div class="info-list">
+                                        <ul>
+                                            <li>top</li>
+                                            <li>bottom </li>
+                                            <li>dupatta</li>
+                                            <li>discription</li>
+                                        </ul>
+                                        <ul>
+                                            <li>Embroidered cotton 2.5 Meter</li>
+                                            <li>Dyed Cotton Pants 2.5 Meter</li>
+                                            <li>Printed Silver Chiffon Dupatta 2.5 Meters</li>
+                                            <li>The actual product & colors may vary from the images shown depending on
+                                                the device you are using to view the product. </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <a href=""><button type="button" class="btn btn-outline-danger">Buy Now</button></a>
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------------END----------- -->
+
+
+                    <!-- ------------sana safinaz stitched cards 2 ----------- -->
+
+                    <div class="unstitched-cards">
+                        <img src="./sanasafina/un-3.png" alt="sana safinaz unstitched collection">
+                        <div class="dress"><img src="./sanasafina/un-4.png" alt="sana safinaz unstitched collection">
+                        </div>
+
+                        <!-- Button trigger modal 2-->
+                        <button type="button" class="btne" data-bs-toggle="modal" data-bs-target="#exampleModal-13">add
+                            to
+                            cart</button>
+                    </div>
+
+
+
+                    <!-- Modal 2 -->
+                    <div class="modal fade" id="exampleModal-13" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title " id="exampleModalLabel">M232-019B-CJ
+                                    </h5>
+
+
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="./sanasafina/un-3.png" alt=""> <img src="./sanasafina/un-4.png" alt="">
+                                    <h4 class="price">PKR 7,909.00</h4>
+                                    <hr>
+                                    <h6>Details</h6>
+                                    <hr>
+                                    <div class="info-list">
+                                        <ul>
+                                            <li>top</li>
+                                            <li>bottom </li>
+                                            <li>dupatta</li>
+                                            <li>discription</li>
+                                        </ul>
+                                        <ul>
+                                            <li>printed lawn 2.5 Meter</li>
+                                            <li>Dyed Cotton Pants 2.5 Meter</li>
+                                            <li>Printed Silver Chiffon Dupatta 2.5 Meters</li>
+                                            <li>The actual product & colors may vary from the images shown depending on
+                                                the device you are using to view the product. </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <a href=""><button type="button" class="btn btn-outline-danger">Buy Now</button></a>
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------------END----------- -->
+
+                    <!-- ----------- sana safinaz unstitched cards 3 ----------- -->
+
+                    <div class="unstitched-cards">
+                        <img src="./sanasafina/un-5.png" alt="sana safinaz unstitched collection">
+                        <div class="dress"><img src="./sanasafina/un-6.png" alt="sana safinaz unstitched collection">
+                        </div>
+
+                        <!-- Button trigger modal 3-->
+                        <button type="button" class="btne" data-bs-toggle="modal" data-bs-target="#exampleModal-14">add
+                            to
+                            cart</button>
+                    </div>
+
+
+
+                    <!-- Modal 3-->
+                    <div class="modal fade" id="exampleModal-14" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title " id="exampleModalLabel">M232-018A-CX
+                                    </h5>
+
+
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="./sanasafina/un-5.png" alt=""> <img src="./sanasafina/un-6.png" alt="">
+                                    <h4 class="price">PKR 8,219.00</h4>
+                                    <hr>
+                                    <h6>Details</h6>
+                                    <hr>
+                                    <div class="info-list">
+                                        <ul>
+                                            <li>top</li>
+                                            <li>bottom </li>
+                                            <li>dupatta</li>
+                                            <li>discription</li>
+                                        </ul>
+                                        <ul>
+                                            <li>Embroidered printed lawn 2.5 Meter</li>
+                                            <li>Dyed Cotton Pants 2.5 Meter</li>
+                                            <li>Embroidered Woven Net Dupatta 2.5 Meter</li>
+                                            <li>The actual product & colors may vary from the images shown depending on
+                                                the device you are using to view the product. </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <a href=""><button type="button" class="btn btn-outline-danger">Buy Now</button></a>
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------------END----------- -->
+
+
+                    <!-- ------------sana safinaz unstitched cards 4 ----------- -->
+
+                    <div class="unstitched-cards">
+                        <img src="./sanasafina/un-7.png" alt="sana safinaz unstitched collection">
+                        <div class="dress"><img src="./sanasafina/un-8.png" alt="sana safinaz unstitched collection">
+                        </div>
+
+                        <!-- Button trigger modal 4-->
+                        <button type="button" class="btne" data-bs-toggle="modal" data-bs-target="#exampleModal-15">add
+                            to
+                            cart</button>
+                    </div>
+
+
+
+                    <!-- Modal 4-->
+                    <div class="modal fade" id="exampleModal-15" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title " id="exampleModalLabel">M232-017A-CJ
+                                    </h5>
+
+
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="./sanasafina/un-7.png" alt=""> <img src="./sanasafina/un-8.png" alt="">
+                                    <h4 class="price">PKR 7,699.00</h4>
+                                    <hr>
+                                    <h6>Details</h6>
+                                    <hr>
+                                    <div class="info-list">
+                                        <ul>
+                                            <li>top</li>
+                                            <li>bottom </li>
+                                            <li>dupatta</li>
+                                            <li>discription</li>
+                                        </ul>
+                                        <ul>
+                                            <li>Embroidered printed lawn 2.5 Meter</li>
+                                            <li>Dyed Cotton Pants 2.5 Meter</li>
+                                            <li>Embroidered Woven Net Dupatta 2.5 Meter</li>
+                                            <li>The actual product & colors may vary from the images shown depending on
+                                                the device you are using to view the product. </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <a href=""><button type="button" class="btn btn-outline-danger">Buy Now</button></a>
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------------END----------- -->
+
+
+                    <!-- ------------sana safinaz unstitched cards 5 ----------- -->
+
+                    <div class="unstitched-cards">
+                        <img src="./sanasafina/un-9.png" alt="sana safinaz unstitched collection">
+                        <div class="dress"><img src="./sanasafina/un-10.png" alt="sana safinaz unstitched collection">
+                        </div>
+
+                        <!-- Button trigger modal 5-->
+                        <button type="button" class="btne" data-bs-toggle="modal" data-bs-target="#exampleModal-16">add
+                            to
+                            cart</button>
+                    </div>
+
+
+
+                    <!-- Modal 5-->
+                    <div class="modal fade" id="exampleModal-16" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title " id="exampleModalLabel">M232-011A-CJ
+                                    </h5>
+
+
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="./sanasafina/un-9.png" alt=""> <img src="./sanasafina/un-10.png" alt="">
+                                    <h4 class="price">PKR 7,599.00</h4>
+                                    <hr>
+                                    <h6>Details</h6>
+                                    <hr>
+                                    <div class="info-list">
+                                        <ul>
+                                            <li>top</li>
+                                            <li>bottom </li>
+                                            <li>dupatta</li>
+                                            <li>discription</li>
+                                        </ul>
+                                        <ul>
+                                            <li>Embroidered printed lawn 2.5 Meter</li>
+                                            <li>Dyed Cotton Pants 2.5 Meter</li>
+                                            <li>Embroidered Woven Net Dupatta 2.5 Meter</li>
+                                            <li>The actual product & colors may vary from the images shown depending on
+                                                the device you are using to view the product. </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <a href=""><button type="button" class="btn btn-outline-danger">Buy Now</button></a>
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------------END----------- -->
+
+                    <!-- ------------sana safinaz unstitched cards 6 ----------- -->
+                    <div class="unstitched-cards">
+                        <img src="./sanasafina/un-11.png" alt="sana safinaz unstitched collection">
+                        <div class="dress"><img src="./sanasafina/un-12.png" alt="sana safinaz unstitched collection">
+                        </div>
+
+                        <!-- Button trigger modal 6-->
+                        <button type="button" class="btne" data-bs-toggle="modal" data-bs-target="#exampleModal-17">add
+                            to
+                            cart</button>
+                    </div>
+
+
+
+                    <!-- Modal 6-->
+                    <div class="modal fade" id="exampleModal-17" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title " id="exampleModalLabel">M232-010B-CG
+                                    </h5>
+
+
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="./sanasafina/un-11.png" alt=""> <img src="./sanasafina/un-12.png" alt="">
+                                    <h4 class="price">PKR 6,879.00</h4>
+                                    <hr>
+                                    <h6>Details</h6>
+                                    <hr>
+                                    <div class="info-list">
+                                        <ul>
+                                            <li>top</li>
+                                            <li>bottom </li>
+                                            <li>dupatta</li>
+                                            <li>discription</li>
+                                        </ul>
+                                        <ul>
+                                            <li>Gold & Paste Printed lawn 2.5 Meter</li>
+                                            <li>Dyed Cotton Pants 2.5 Meter</li>
+                                            <li>Printed Organza Dupatta 2.5 Meters</li>
+                                            <li>The actual product & colors may vary from the images shown depending on
+                                                the device you are using to view the product. </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <a href=""><button type="button" class="btn btn-outline-danger">Buy Now</button></a>
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------------END----------- -->
+
+
+                    <!-- ------------sana safinaz unstitched cards 7 ----------- -->
+
+                    <div class="unstitched-cards">
+                        <img src="./sanasafina/un-13.png" alt="sana safinaz unstitched collection">
+                        <div class="dress"><img src="./sanasafina/un-14.png" alt="sana safinaz unstitched collection">
+                        </div>
+
+                        <!-- Button trigger modal 7-->
+                        <button type="button" class="btne" data-bs-toggle="modal" data-bs-target="#exampleModal-18">add
+                            to
+                            cart</button>
+                    </div>
+
+
+
+                    <!-- Modal 7 -->
+                    <div class="modal fade" id="exampleModal-18" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title " id="exampleModalLabel">M232-014A-CI
+                                    </h5>
+
+
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="./sanasafina/un-13.png" alt=""> <img src="./sanasafina/un-14.png" alt="">
+                                    <h4 class="price">PKR 5,749.00</h4>
+                                    <hr>
+                                    <h6>Details</h6>
+                                    <hr>
+                                    <div class="info-list">
+                                        <ul>
+                                            <li>top</li>
+                                            <li>bottom </li>
+                                            <li>dupatta</li>
+                                            <li>discription</li>
+                                        </ul>
+                                        <ul>
+                                            <li>Digital Printed lawn 2.5 Meter</li>
+                                            <li>Dyed Cotton Pants 2.5 Meter</li>
+                                            <li>Printed Silver Chiffon Dupatta 2.5 Meters</li>
+                                            <li>The actual product & colors may vary from the images shown depending on
+                                                the device you are using to view the product. </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <a href=""><button type="button" class="btn btn-outline-danger">Buy Now</button></a>
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------------END----------- -->
+
+                    <!-- ------------sana safinaz unstitched cards 8 ----------- -->
+
+                    <div class="unstitched-cards">
+                        <img src="./sanasafina/un-15.png" alt="sana safinaz unstitched collection">
+                        <div class="dress"><img src="./sanasafina/un-16.png" alt="sana safinaz unstitched collection">
+                        </div>
+
+                        <!-- Button trigger modal 8-->
+                        <button type="button" class="btne" data-bs-toggle="modal" data-bs-target="#exampleModal-19">add
+                            to
+                            cart</button>
+                    </div>
+
+
+
+                    <!-- Modal 8-->
+                    <div class="modal fade" id="exampleModal-19" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title " id="exampleModalLabel">M232-017B-CJ
+                                    </h5>
+
+
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="./sanasafina/un-15.png" alt=""> <img src="./sanasafina/un-16.png" alt="">
+                                    <h4 class="price">PKR 7,699.00</h4>
+                                    <hr>
+                                    <h6>Details</h6>
+                                    <hr>
+                                    <div class="info-list">
+                                        <ul>
+                                            <li>top</li>
+                                            <li>bottom </li>
+                                            <li>dupatta</li>
+                                            <li>discription</li>
+                                        </ul>
+                                        <ul>
+                                            <li>Embroidered Kali Printed Lawn 2.5 Meter</li>
+                                            <li>Dyed Cotton Pants 2.5 Meter</li>
+                                            <li>Printed Silver Chiffon Dupatta 2.5 Meters</li>
+                                            <li>The actual product & colors may vary from the images shown depending on
+                                                the device you are using to view the product. </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <a href=""><button type="button" class="btn btn-outline-danger">Buy Now</button></a>
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------------END----------- -->
+
+
+                    <!-- ------------sana safinaz unstitched cards 9 ----------- -->
+
+                    <div class="unstitched-cards">
+                        <img src="./sanasafina/un-17.png" alt="sana safinaz unstitched collection">
+                        <div class="dress"><img src="./sanasafina/un-18.png" alt="sana safinaz unstitched collection">
+                        </div>
+
+                        <!-- Button trigger modal 9-->
+                        <button type="button" class="btne" data-bs-toggle="modal" data-bs-target="#exampleModal-20">add
+                            to
+                            cart</button>
+                    </div>
+
+
+
+                    <!-- Modal 9-->
+                    <div class="modal fade" id="exampleModal-20" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title " id="exampleModalLabel">H231-005A-AG
+                                    </h5>
+
+
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="./sanasafina/un-17.png" alt=""> <img src="./sanasafina/un-18.png" alt="">
+                                    <h4 class="price">PKR 4,419.00</h4>
+                                    <hr>
+                                    <h6>Details</h6>
+                                    <hr>
+                                    <div class="info-list">
+                                        <ul>
+                                            <li>top</li>
+                                            <li>bottom </li>
+                                            <li>dupatta</li>
+                                            <li>discription</li>
+                                        </ul>
+                                        <ul>
+                                            <li>Printed Lawn 2.5 Meter</li>
+                                            <li>Dyed Cotton Pants 2.5 Meter</li>
+                                            <li>Cross Slub Digital Dupatta 2.5 Meters</li>
+                                            <li>The actual product & colors may vary from the images shown depending on
+                                                the device you are using to view the product. </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <a href=""><button type="button" class="btn btn-outline-danger">Buy Now</button></a>
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------------END----------- -->
+
+
+                    <!-- ------------sana safinaz unstitched cards 10 ----------- -->
+
+                    <div class="unstitched-cards">
+                        <img src="./sanasafina/un-19.png" alt="sana safinaz unstitched collection">
+                        <div class="dress"><img src="./sanasafina/un-20.png" alt="sana safinaz unstitched collection">
+                        </div>
+
+                        <!-- Button trigger modal 10-->
+                        <button type="button" class="btne" data-bs-toggle="modal" data-bs-target="#exampleModal-21">add
+                            to
+                            cart</button>
+                    </div>
+
+
+
+                    <!-- Modal 10-->
+                    <div class="modal fade" id="exampleModal-21" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title " id="exampleModalLabel">H231-002A-CG
+                                    </h5>
+
+
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="./sanasafina/un-19.png" alt=""> <img src="./sanasafina/un-20.png" alt="">
+                                    <h4 class="price">PKR 4,419.00</h4>
+                                    <hr>
+                                    <h6>Details</h6>
+                                    <hr>
+                                    <div class="info-list">
+                                        <ul>
+                                            <li>top</li>
+                                            <li>bottom </li>
+                                            <li>dupatta</li>
+                                            <li>discription</li>
+                                        </ul>
+                                        <ul>
+                                            <li>digital Printed Lawn 2.5 Meter</li>
+                                            <li>Dyed Cotton Pants 2.5 Meter</li>
+                                            <li>Embroidered Patti On Organza 1 Meter</li>
+                                            <li>The actual product & colors may vary from the images shown depending on
+                                                the device you are using to view the product. </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <a href=""><button type="button" class="btn btn-outline-danger">Buy Now</button></a>
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------------END----------- -->
+
+                    <!-- ------------sana safinaz unstitched cards 11 ----------- -->
+
+                    <div class="unstitched-cards">
+                        <img src="./sanasafina/un-21.png" alt="sana safinaz unstitched collection">
+                        <div class="dress"><img src="./sanasafina/un-22.png" alt="sana safinaz unstitched collection">
+                        </div>
+
+                        <!-- Button trigger modal 11-->
+                        <button type="button" class="btne" data-bs-toggle="modal" data-bs-target="#exampleModal-22">add
+                            to
+                            cart</button>
+                    </div>
+
+
+
+                    <!-- Modal 11-->
+                    <div class="modal fade" id="exampleModal-22" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title " id="exampleModalLabel">H231-005B-AG
+                                    </h5>
+
+
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="./sanasafina/un-21.png" alt=""> <img src="./sanasafina/un-22.png" alt="">
+                                    <h4 class="price">PKR 4,419.00</h4>
+                                    <hr>
+                                    <h6>Details</h6>
+                                    <hr>
+                                    <div class="info-list">
+                                        <ul>
+                                            <li>top</li>
+                                            <li>bottom </li>
+                                            <li>dupatta</li>
+                                            <li>discription</li>
+                                        </ul>
+                                        <ul>
+                                            <li>Printed Lawn 2.5 Meter</li>
+                                            <li>Dyed Cotton Pants 2.5 Meter</li>
+                                            <li>Cross Slub Digital Dupatta 2.5 Meters</li>
+                                            <li>The actual product & colors may vary from the images shown depending on
+                                                the device you are using to view the product. </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <a href=""><button type="button" class="btn btn-outline-danger">Buy Now</button></a>
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------------END----------- -->
+
+
+                    <!-- ------------sana safinaz unstitched cards 12 ----------- -->
+
+                    <div class="unstitched-cards">
+                        <img src="./sanasafina/un-23.png" alt="sana safinaz unstitched collection">
+                        <div class="dress"><img src="./sanasafina/un-24.png" alt="sana safinaz unstitched collection">
+                        </div>
+
+                        <!-- Button trigger modal 12-->
+                        <button type="button" class="btne" data-bs-toggle="modal" data-bs-target="#exampleModal-23">add
+                            to
+                            cart</button>
+                    </div>
+
+
+
+                    <!-- Modal 12-->
+                    <div class="modal fade" id="exampleModal-23" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title " id="exampleModalLabel">H231-006A-AG
+                                    </h5>
+
+
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="./sanasafina/un-23.png" alt=""> <img src="./sanasafina/un-24.png" alt="">
+                                    <h4 class="price">PKR 4,419</h4>
+                                    <hr>
+                                    <h6>Details</h6>
+                                    <hr>
+                                    <div class="info-list">
+                                        <ul>
+                                            <li>top</li>
+                                            <li>bottom </li>
+                                            <li>dupatta</li>
+                                            <li>discription</li>
+                                        </ul>
+                                        <ul>
+                                            <li>digital Printed Lawn 2.5 Meter</li>
+                                            <li>Digital printed cambric Pants 2.5 Meter</li>
+                                            <li>Lawn Dyed Dupatta</li>
+                                            <li>The actual product & colors may vary from the images shown depending on
+                                                the device you are using to view the product. </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <a href=""><button type="button" class="btn btn-outline-danger">Buy Now</button></a>
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------------END----------- -->
+
+                </div>
+
+            </div>
+        </div>
+
+    <!--  THIS IS FOOTER SECTION-->
+    <footer>
+        <div class="about">
+
+
+            <div class="box1">
+                <img src="images/logo-removebg-preview.png" alt="">
+                <h4>Madam's Boutique</h4>
+            </div>
+            <div class="box1 margin">
+                <h3>quick Links</h3>
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="brands.html">brands</a></li>
+                    <li><a href="designers.html">designers</a></li>
+                    <li><a href="contact.html">contacts</a></li>
+                    <li><a href="about.html">about us</a></li>
+                </ul>
+            </div>
+            <div class="box1">
+                <h3>contact info</h3>
+                <ul>
+                    <li><i class="fa-solid fa-phone"></i> +1 5558 55489 55</li>
+
+                    <li><i class="fa-solid fa-envelope"></i> madam'sboutique@example.com</li>
+                    <li><i class="fa-solid fa-location-dot"></i>main autobhan,hyderabad pakistan.</li>
+                </ul>
+            </div>
+            <div class="box1">
+                <h3>follow us</h3>
+
+                <i id="slide" class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-linkedin"></i>
+
+            </div>
+
+
+        </div>
+
+
+
+        <span> <i class="fa-regular fa-copyright"></i> Copyright 2023, All Rights Reserved.</span>
+    </footer>
+    <!-- footer end -->
+
+</body>
+
+<script src="./bootstrap.min.js">
+</script>
+<script>
+    let hamberger = document.getElementById("hamberger");
+
+    let nav = document.querySelector(".nav1 ul");
+
+    console.log(nav);
+
+    hamberger.addEventListener('click', () => {
+
+        nav.classList.toggle("active");
+        console.log("clicking");
+
+    });
+</script>
+
+</html>

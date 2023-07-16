@@ -1,0 +1,1655 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madam's Boutique</title>
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="all.min.css">
+
+    <link rel="stylesheet" href="fontawesome.min.css">
+    <!-- online fontawesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="style1.css">
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+
+
+</head>
+
+<body>
+    <!-- THIS IS HEADER SECTION-->
+    <div id="mrque">
+
+
+        <marquee behavior="" direction="left">Get your festive look sorted with Madam's Boutique Collection featuring
+            embroidered fits in fresh colours</marquee>
+    </div>
+    <header class="nav">
+        <div class="logo">
+            <a href="index.html"><img src="./images/logo-removebg-preview.png" alt=""></a>
+        </div>
+        <div class="nav1">
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="brands.html">brands <i class="fa-solid fa-angle-down"></i></a>
+                    <div class="submenu">
+                        <ul>
+                            <li><a href="mariab.html">Maria.b</a></li>
+                            <li><a href="sana safinaz.html">sana safinaz</a></li>
+                            <li><a href="j.html">j.</a></li>
+                            <li><a href="khaddi.html">khaddi</a></li>
+                            <li><a href="sapphire.html">sapphire</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="designers.html">designers<i class="fa-solid fa-angle-down"></i></a>
+                    <div class="submenu sub1">
+                        <ul>
+                            <li><a href="asim.j.html">asim jofa</a></li>
+                            <li><a href="sana safinaz.html">sana safinaz</a></li>
+                            <li><a href="aghanoor.html">agha noor</a></li>
+                            <li><a href="mariab.html">Maria.b</a></li>
+                            <li><a href="MNR.html">MNR</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="accessories.html">accessories</a></li>
+                <li><a href="contact.html">contact</a></li>
+                <li><a href="about.html">about us</a></li>
+            </ul>
+        </div>
+        <div class="icons">
+            <a href=""> <i class="fa-solid fa-bag-shopping"></i></a>
+            <!-- Button trigger modal -->
+
+            <i class="fa-solid fa-right-to-bracket" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
+            <i id="hamberger" class="fa-solid fa-bars"></i>
+        </div>
+
+
+    </header>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">sign in</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="" method="">
+                        <label for="" class="form-label">uesr name </label>
+                        <input type="text" class="form-control">
+                        <label for="" class="form-label">password</label>
+                        <input type="password" class="form-control">
+
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <a href="./index.html"><button type="button" class="btn btn-primary">sign in</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- hearder section end -->
+    <section id="pdng">
+        <div class="logos">
+
+            <a href=""><img src="images/sapphire.png" alt=""></a>
+
+        </div>
+        <div class="full">
+
+            <a href=""><img src="images/sapphire1.png" alt=""></a>
+
+        </div>
+
+    </section>
+    <div>
+
+        <ul class="nav bg-white position-relative nav-pills mb-3 d-flex justify-content-center mt-4" id="pills-tab"
+            role="tablist">
+            <li class="nav-item" role="presentation">
+
+                <button class="btn btn-outline-warning active outline-none fw-bold shadow-none me-lg-4"
+                    id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab"
+                    aria-controls="pills-home" aria-selected="true">Stitched</button>
+            </li>
+
+            <li class="nav-item" role="presentation">
+
+                <button class="btn btn-outline-warning outline-none shadow-none fw-bold" id="pills-profile-tab"
+                    data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab"
+                    aria-controls="pills-profile" aria-selected="false">Unstiched</button>
+
+            </li>
+
+
+        </ul>
+
+        <div class="tab-content" id="pills-tabContent">
+            <!-- ------------.stitched cards filter btn ----------- -->
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+                tabindex="0">
+
+                <!-- ------------sapphire.stitched cards 1 ----------- -->
+                <div class="unstitched">
+                    <div class="unstitched-cards">
+                        <div><img src="./sapphire/stitch1.png" alt="Sapphire stitched collection"></div>
+                        <div class="dress"><img src="./sapphire/stitch2.png" alt="Sapphire stitched collection"></div>
+                        <p class="size"> XS S M L XL</p>
+
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btne" data-bs-toggle="modal" data-bs-target="#exampleModal-0">add
+                            to
+                            cart</button>
+                    </div>
+
+
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal-0" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h6 class="modal-title " id="exampleModalLabel">3 Piece - Embroidered Chiffon Suit
+                                    </h6>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="./sapphire/stitch1.png" alt=""> <img src="./sapphire/stitch2.png" alt="">
+                                    <h4 class="price">Rs.17,990.00</h4>
+                                    <hr>
+                                    <h6>Details</h6>
+                                    <hr>
+                                    <div class="info-list">
+                                        <ul>
+                                      
+                                            <li>colour</li>
+                                            <li>product</li>
+                                      
+                                            <li>fabric</li>
+                                            <li>disclaimer</li>
+                                        </ul>
+                                        <ul>
+                                   
+                                            <li>peach</li>
+                                            <li>3-Piece Pishwas with Trousers & Dupatta</li>
+                                         
+                                            <li>Bemberg Crinkle Chiffon</li>
+                                            <li>Actual product color may vary slightly from the image.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <a href=""><button type="button" class="btn btn-outline-danger">Buy Now</button></a>
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------------END----------- -->
+
+                    <!-- ------------sapphire.stitched cards 2 ----------- -->
+
+                    <div class="unstitched-cards">
+                        <img src="./sapphire/stitch3.png" alt="Sapphire stitched collection" id="imgg1"> <br>
+                        <div class="dress"><img src="./sapphire/stitch4.png" alt="Sapphire stitched collection"></div>
+                        <p class="size"> XS S M L XL</p>
+
+                        <!-- Button trigger modal 2 -->
+                        <button type="button" class="btne" data-bs-toggle="modal" data-bs-target="#exampleModal-1">add
+                            to
+                            cart</button>
+                    </div>
+
+
+
+                    <!-- Modal 2-->
+                    <div class="modal fade" id="exampleModal-1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h6 class="modal-title " id="exampleModalLabel">3 Piece - Embroidered Lawn Suit</h6>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="./sapphire/stitch3.png" alt=""> <img src="./sapphire/stitch4.png" alt="">
+                                    <h4 class="price">Rs.15,990.00 </h4>
+                                    <hr>
+                                    <h6>Details</h6>
+                                    <hr>
+                                    <div class="info-list">
+                                        <ul>
+                                      
+                                            <li>colour</li>
+                                            <li>product</li>
+                                            <li>fabric</li>
+                                            <li>disclaimer</li>
+                                        </ul>
+                                        <ul>
+                                   
+                                            <li>yellow</li>
+                                            <li>3-Piece Flared A-line Shirt with Trousers & Dupatta</li>
+                                            <li>Lawn</li>
+                                            <li>Actual product color may vary slightly from the image.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <a href=""><button type="button" class="btn btn-outline-danger">Buy Now</button></a>
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------------END----------- -->
+
+                    <!-- ------------sapphire.stitched cards 3 ----------- -->
+
+                    <div class="unstitched-cards">
+                        <img src="./sapphire/stitch5.png" alt="Sapphire stitched collection" id="imgg1"> <br>
+                        <div class="dress"><img src="./sapphire/stitch6.png" alt="Sapphire stitched collection"></div>
+                        <p class="size"> XS S M L XL</p>
+
+                        <!-- Button trigger modal 3 -->
+                        <button type="button" class="btne" data-bs-toggle="modal" data-bs-target="#exampleModal-2">add
+                            to
+                            cart</button>
+                    </div>
+
+
+                    <!-- Modal 3-->
+                    <div class="modal fade" id="exampleModal-2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h6 class="modal-title " id="exampleModalLabel">3 Piece - Embroidered Zari Lawn Suit
+                                    </h6>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="./sapphire/stitch5.png" alt=""> <img src="./sapphire/stitch6.png" alt="">
+                                    <h4 class="price"> PKR 9,990.00 </h4>
+                                    <hr>
+                                    <h6>Details</h6>
+                                    <hr>
+                                    <div class="info-list">
+                                        <ul>
+                                      
+                                            <li>colour</li>
+                                            <li>product</li>
+                                      
+                                            <li>fabric</li>
+                                            <li>disclaimer</li>
+                                        </ul>
+                                        <ul>
+                                   
+                                            <li>green</li>
+                                            <li>3-Piece Straight Kurta with Trousers & Dupatta</li>
+                                         
+                                            <li>zari Lawn</li>
+                                            <li>Actual product color may vary slightly from the image.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <a href=""><button type="button" class="btn btn-outline-danger">Buy Now</button></a>
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------------END----------- -->
+
+                    <!-- ------------sapphire.stitched cards 4 ----------- -->
+
+                    <div class="unstitched-cards">
+                        <img src="./sapphire/stitch7.png" alt="Sapphire stitched collection" id="imgg1"> <br>
+                        <div class="dress"><img src="./sapphire/stitch8.png" alt="Sapphire stitched collection"></div>
+                        <p class="size"> XS S M L XL</p>
+
+                        <!-- Button trigger modal 4 -->
+                        <button type="button" class="btne" data-bs-toggle="modal" data-bs-target="#exampleModal-3">add
+                            to
+                            cart</button>
+                    </div>
+
+
+
+                    <!-- Modal 4-->
+                    <div class="modal fade" id="exampleModal-3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h6 class="modal-title " id="exampleModalLabel">3 Piece - Embroidered Dobby Suit
+                                    </h6>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="./sapphire/stitch7.png" alt=""> <img src="./sapphire/stitch8.png" alt="">
+                                    <h4 class="price"> Rs.16,990.00</h4>
+                                    <hr>
+                                    <h6>Details</h6>
+                                    <hr>
+                                    <div class="info-list">
+                                        <ul>
+                                      
+                                            <li>colour</li>
+                                            <li>product</li>
+                                      
+                                            <li>fabric</li>
+                                            <li>disclaimer</li>
+                                        </ul>
+                                        <ul>
+                                     
+                                            <li>off white</li>
+                                            <li>3-Piece Straight Kurta with Trousers & Dupatta</li>
+                                         
+                                            <li>dobby</li>
+                                            <li>Actual product color may vary slightly from the image.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <a href=""><button type="button" class="btn btn-outline-danger">Buy Now</button></a>
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------------END----------- -->
+
+                    <!-- ------------sapphire.stitched cards 5 ----------- -->
+                    <div class="unstitched-cards">
+                        <img src="./sapphire/stitch9.png" alt="Sapphire stitched collection" id="imgg1"> <br>
+                        <div class="dress"><img src="./sapphire/stitch10.png" alt="Sapphire stitched collection"></div>
+                        <p class="size"> XS S M L XL</p>
+
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btne" data-bs-toggle="modal" data-bs-target="#exampleModal-4">add
+                            to
+                            cart</button>
+                    </div>
+
+
+
+                    <!-- Modal 5-->
+                    <div class="modal fade" id="exampleModal-4" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h6 class="modal-title " id="exampleModalLabel">3 Piece - Embroidered Karandi Suit
+                                    </h6>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="./sapphire/stitch9.png" alt=""> <img src="./sapphire/stitch10.png" alt="">
+                                    <h4 class="price"> PKR 15,990.00</h4>
+                                    <hr>
+                                    <h6>Details</h6>
+                                    <hr>
+                                    <div class="info-list">
+                                        <ul>
+                                      
+                                            <li>colour</li>
+                                            <li>product</li>
+                                      
+                                            <li>fabric</li>
+                                            <li>disclaimer</li>
+                                        </ul>
+                                        <ul>
+                                   
+                                            <li>BLUE</li>
+                                            <li>3-Piece Flared A-line Shirt with Trousers & Dupatta</li>
+                                         
+                                            <li> Blended Karandi Dobby</li>
+                                            <li>Actual product color may vary slightly from the image.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <a href=""><button type="button" class="btn btn-outline-danger">Buy Now</button></a>
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------------END----------- -->
+
+                    <!-- ------------sapphire.stitched cards 6 ----------- -->
+
+                    <div class="unstitched-cards">
+                        <img src="./sapphire/stitch11.png" alt="Sapphire stitched collection" id="imgg1"> <br>
+                        <div class="dress"><img src="./sapphire/stitch12.png" alt="Sapphire stitched collection"></div>
+                        <p class="size"> XS S M L XL</p>
+
+                        <!-- Button trigger modal 6 -->
+                        <button type="button" class="btne" data-bs-toggle="modal" data-bs-target="#exampleModal-5">add
+                            to
+                            cart</button>
+                    </div>
+
+
+
+                    <!-- Modal 6-->
+                    <div class="modal fade" id="exampleModal-5" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h6 class="modal-title " id="exampleModalLabel">3 Piece - Embroidered Cotton Satin
+                                        Suit</h6>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="./sapphire/stitch11.png" alt=""> <img src="./sapphire/stitch12.png"
+                                        alt="">
+                                    <h4 class="price">PKR 8,990.00</h4>
+                                    <hr>
+                                    <h6>Details</h6>
+                                    <hr>
+                                    <div class="info-list">
+                                        <ul>
+                                      
+                                            <li>colour</li>
+                                            <li>product</li>
+                                      
+                                            <li>fabric</li>
+                                            <li>disclaimer</li>
+                                        </ul>
+                                        <ul>
+                                     
+                                            <li>red</li>
+                                            <li>3-Piece Straight Kurta with Trousers & Dupatta</li>
+                                         
+                                            <li>cotton Satin</li>
+                                            <li>Actual product color may vary slightly from the image.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <a href=""><button type="button" class="btn btn-outline-danger">Buy Now</button></a>
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------------END----------- -->
+
+                    <!-- ------------sapphire.stitched cards 7 ----------- -->
+
+                    <div class="unstitched-cards">
+                        <img src="./sapphire/stitch13.png" alt="Sapphire stitched collection" id="imgg1"> <br>
+                        <div class="dress"><img src="./sapphire/stitch14.png" alt="Sapphire stitched collection"></div>
+                        <p class="size"> XS S M L XL</p>
+
+                        <!-- Button trigger modal 7 -->
+                        <button type="button" class="btne" data-bs-toggle="modal" data-bs-target="#exampleModal-6">add
+                            to
+                            cart</button>
+                    </div>
+
+
+                    <!-- Modal 7-->
+                    <div class="modal fade" id="exampleModal-6" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h6 class="modal-title " id="exampleModalLabel">3 Piece - Embroidered Cotton Suit
+                                    </h6>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="./sapphire/stitch13.png" alt=""> <img src="./sapphire/stitch14.png"
+                                        alt="">
+                                    <h4 class="price">PKR 11,990.00</h4>
+                                    <hr>
+                                    <h6>Details</h6>
+                                    <hr>
+                                    <div class="info-list">
+                                        <ul>
+                                      
+                                            <li>colour</li>
+                                            <li>product</li>
+                                      
+                                            <li>fabric</li>
+                                            <li>disclaimer</li>
+                                        </ul>
+                                        <ul>
+                                   
+                                            <li>sage Green</li>
+                                            <li>3-Piece Flared A-line Shirt with Trousers & Dupatta</li>
+                                         
+                                            <li> Textured Cotton</li>
+                                            <li>Actual product color may vary slightly from the image.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <a href=""><button type="button" class="btn btn-outline-danger">Buy Now</button></a>
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------------END----------- -->
+
+                    <!-- ------------sapphire.stitched cards 8 ----------- -->
+
+                    <div class="unstitched-cards">
+                        <img src="./sapphire/stitch15.png" alt="Sapphire stitched collection" id="imgg1"> <br>
+                        <div class="dress"><img src="./sapphire/stitch16.png" alt="Sapphire stitched collection"></div>
+                        <p class="size"> XS S M L XL</p>
+
+                        <!-- Button trigger modal 8 -->
+                        <button type="button" class="btne" data-bs-toggle="modal" data-bs-target="#exampleModal-7">add
+                            to
+                            cart</button>
+                    </div>
+
+
+
+                    <!-- Modal 8-->
+                    <div class="modal fade" id="exampleModal-7" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h6 class="modal-title " id="exampleModalLabel">3 Piece - Embroidered Jacquard Suit
+                                    </h6>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="./sapphire/stitch15.png" alt=""> <img src="./sapphire/stitch16.png"
+                                        alt="">
+                                    <h4 class="price"> PKR 8,990.00 </h4>
+                                    <hr>
+                                    <h6>Details</h6>
+                                    <hr>
+                                    <div class="info-list">
+                                        <ul>
+                                      
+                                            <li>colour</li>
+                                            <li>product</li>
+                                      
+                                            <li>fabric</li>
+                                            <li>disclaimer</li>
+                                        </ul>
+                                        <ul>
+                                   
+                                            <li>Lilac</li>
+                                            <li>3-Piece Straight Kurta with Trousers & Dupatta</li>
+                                         
+                                            <li>self Jacquard</li>
+                                            <li>Actual product color may vary slightly from the image.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <a href=""><button type="button" class="btn btn-outline-danger">Buy Now</button></a>
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------------END----------- -->
+
+                    <!-- ------------sapphire.stitched cards 9 ----------- -->
+                    <div class="unstitched-cards">
+                        <img src="./sapphire/stitch17.png" alt="Sapphire stitched collection" id="imgg1"> <br>
+                        <div class="dress"><img src="./sapphire/stitch18.png" alt="Sapphire stitched collection"></div>
+                        <p class="size"> XS S M L XL</p>
+
+                        <!-- Button trigger modal 9 -->
+                        <button type="button" class="btne" data-bs-toggle="modal" data-bs-target="#exampleModal-8">add
+                            to
+                            cart</button>
+                    </div>
+
+
+
+                    <!-- Modal 9-->
+                    <div class="modal fade" id="exampleModal-8" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h6 class="modal-title " id="exampleModalLabel">2 Piece - Embroidered Jacquard Suit
+                                    </h6>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="./sapphire/stitch17.png" alt=""> <img src="./sapphire/stitch18.png"
+                                        alt="">
+                                    <h4 class="price"> PKR 15,990.00</h4>
+                                    <hr>
+                                    <h6>Details</h6>
+                                    <hr>
+                                    <div class="info-list">
+                                        <ul>
+                                      
+                                            <li>colour</li>
+                                            <li>product</li>
+                                      
+                                            <li>fabric</li>
+                                            <li>disclaimer</li>
+                                        </ul>
+                                        <ul>
+                                     
+                                            <li>Black</li>
+                                            <li>2-Piece Straight Kurta with Dupatta/li>
+                                             
+                                            <li>kota Jacquard</li>
+                                            <li>Actual product color may vary slightly from the image.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <a href=""><button type="button" class="btn btn-outline-danger">Buy Now</button></a>
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------------END----------- -->
+
+                    <!-- ------------sapphire.stitched cards 10 ----------- -->
+
+                    <div class="unstitched-cards">
+                        <img src="./sapphire/stitch19.png" alt="Sapphire stitched collection" id="imgg1"> <br>
+                        <div class="dress"><img src="./sapphire/stitch20.png" alt="Sapphire stitched collection"></div>
+                        <p class="size"> XS S M L XL</p>
+
+                        <!-- Button trigger modal 10 -->
+                        <button type="button" class="btne" data-bs-toggle="modal" data-bs-target="#exampleModal-9">add
+                            to
+                            cart</button>
+                    </div>
+
+
+
+                    <!-- Modal 10-->
+                    <div class="modal fade" id="exampleModal-9" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h6 class="modal-title " id="exampleModalLabel">3 Piece - Printed Dobby Suit</h6>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="./sapphire/stitch19.png" alt=""> <img src="./sapphire/stitch20.png"
+                                        alt="">
+                                    <h4 class="price">PKR 7,490.00</h4>
+                                    <hr>
+                                    <h6>Details</h6>
+                                    <hr>
+                                    <div class="info-list">
+                                        <ul>
+                                      
+                                            <li>colour</li>
+                                            <li>product</li>
+                                      
+                                            <li>fabric</li>
+                                            <li>disclaimer</li>
+                                        </ul>
+                                        <ul>
+                                   
+                                            <li>purple</li>
+                                            <li>3-Piece A-line Shirt with Trousers & Dupatta</li>
+                                         
+                                            <li>Dobby</li>
+                                            <li>Actual product color may vary slightly from the image.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <a href=""><button type="button" class="btn btn-outline-danger">Buy Now</button></a>
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------------END----------- -->
+
+                    <!-- ------------sapphire.stitched cards 11 ----------- -->
+
+                    <div class="unstitched-cards">
+                        <img src="./sapphire/stitch21.png" alt="Sapphire stitched collection" id="imgg1"> <br>
+                        <div class="dress"><img src="./sapphire/stitch22.png" alt="Sapphire stitched collection"></div>
+                        <p class="size"> XS S M L XL</p>
+
+                        <!-- Button trigger modal 11 -->
+                        <button type="button" class="btne" data-bs-toggle="modal" data-bs-target="#exampleModal-10">add
+                            to
+                            cart</button>
+                    </div>
+
+
+                    <!-- Modal 11-->
+                    <div class="modal fade" id="exampleModal-10" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h6 class="modal-title " id="exampleModalLabel">3 Piece - Embroidered Dobby Suit
+                                    </h6>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="./sapphire/stitch21.png" alt=""> <img src="./sapphire/stitch22.png"
+                                        alt="">
+                                    <h4 class="price">PKR 9,990.00</h4>
+                                    <hr>
+                                    <h6>Details</h6>
+                                    <hr>
+                                    <div class="info-list">
+                                        <ul>
+                                      
+                                            <li>colour</li>
+                                            <li>product</li>
+                                      
+                                            <li>fabric</li>
+                                            <li>disclaimer</li>
+                                        </ul>
+                                        <ul>
+                                   
+                                            <li>Pink</li>
+                                            <li>3-Piece A line Shirt with Trousers & Dupatta</li>
+                                         
+                                            <li>Dobby</li>
+                                            <li>Actual product color may vary slightly from the image.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <a href=""><button type="button" class="btn btn-outline-danger">Buy Now</button></a>
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------------END----------- -->
+
+                    <!-- ------------sapphire.stitched cards 12 ----------- -->
+
+                    <div class="unstitched-cards">
+                        <img src="./sapphire/stitch23.png" alt="Sapphire stitched collection" id="imgg1"> <br>
+                        <div class="dress"><img src="./sapphire/stitch24.png" alt="Sapphire stitched collection"></div>
+                        <p class="size"> XS S M L XL</p>
+
+                        <!-- Button trigger modal 12 -->
+                        <button type="button" class="btne" data-bs-toggle="modal" data-bs-target="#exampleModal-11">add
+                            to
+                            cart</button>
+                    </div>
+
+
+
+                    <!-- Modal 12-->
+                    <div class="modal fade" id="exampleModal-11" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h6 class="modal-title " id="exampleModalLabel">Embroidered Cotton Shirt</h6>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="./sapphire/stitch23.png" alt=""> <img src="./sapphire/stitch24.png"
+                                        alt="">
+                                    <h4 class="price"> PKR 6,490.00 </h4>
+                                    <hr>
+                                    <h6>Details</h6>
+                                    <hr>
+                                    <div class="info-list">
+                                        <ul>
+                                      
+                                            <li>colour</li>
+                                            <li>product</li>
+                                      
+                                            <li>fabric</li>
+                                            <li>disclaimer</li>
+                                        </ul>
+                                        <ul>
+                                     
+                                            <li>maroon</li>
+                                            <li>stitched 2 Piece, shirt trouser </li>
+                                         
+                                            <li>Textured cotton</li>
+                                            <li>Actual product color may vary slightly from the image.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <a href=""><button type="button" class="btn btn-outline-danger">Buy Now</button></a>
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+
+
+            <!-- ------------.unstitched cards filter btn ----------- -->
+
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
+                tabindex="0">
+                <!-- ------------sapphire.unstitched cards 1 ----------- -->
+                <div class="unstitched">
+                    <div class="unstitched-cards">
+                        <div><img src="./sapphire/un-1.png" alt="Sapphire Unstitched collection"></div>
+                        <div class="dress"><img src="./sapphire/un-2.png" alt="Sapphire Unstitched collection"></div>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btne" data-bs-toggle="modal" data-bs-target="#exampleModal-12">add
+                            to
+                            cart</button>
+                    </div>
+
+
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal-12" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h6 class="modal-title " id="exampleModalLabel">3 Piece - Printed Lawn Suit</h6>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="./sapphire/un-1.png" alt=""> <img src="./sapphire/un-2.png" alt="">
+                                    <h4 class="price">Rs.3,290.00</h4>
+                                    <hr>
+                                    <h6>Details</h6>
+                                    <hr>
+                                    <div class="info-list">
+                                        <ul>
+                                            <li>size</li>
+                                            <li>colour</li>
+                                            <li>product</li>
+                                      
+                                            <li>fabric</li>
+                                            <li>disclaimer</li>
+                                        </ul>
+                                        <ul>
+                                            <li>3 Piece</li>
+                                            <li>Yellow</li>
+                                            <li>Unstitched 3 Piece</li>
+                                         
+                                            <li>Lawn</li>
+                                            <li>Actual product color may vary slightly from the image.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <a href=""><button type="button" class="btn btn-outline-danger">Buy Now</button></a>
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------------END----------- -->
+
+                    <!-- ------------sapphire.unstitched cards 2 ----------- -->
+
+                    <div class="unstitched-cards">
+                        <img src="./sapphire/un-3.png" alt="Sapphire Unstitched collection" id="imgg1"> <br>
+                        <div class="dress"><img src="./sapphire/un-4.png" alt="Sapphire Unstitched collection"></div>
+                        <!-- Button trigger modal 2 -->
+                        <button type="button" class="btne" data-bs-toggle="modal" data-bs-target="#exampleModal-13">add
+                            to
+                            cart</button>
+                    </div>
+
+
+
+                    <!-- Modal 2-->
+                    <div class="modal fade" id="exampleModal-13" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h6 class="modal-title " id="exampleModalLabel">3 Piece - Printed Lawn Suit</h6>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="./sapphire/un-3.png" alt=""> <img src="./sapphire/un-4.png" alt="">
+                                    <h4 class="price"> PKR 3,290.00 </h4>
+                                    <hr>
+                                    <h6>Details</h6>
+                                    <hr>
+                                    <div class="info-list">
+                                        <ul>
+                                            <li>size</li>
+                                            <li>colour</li>
+                                            <li>product</li>
+                                            <li>fabric</li>
+                                            <li>disclaimer</li>
+                                        </ul>
+                                        <ul>
+                                            <li>3 Piece</li>
+                                            <li>grey</li>
+                                            <li>Unstitched 3 Piece</li>
+                                            <li>Lawn</li>
+                                            <li>Actual product color may vary slightly from the image.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <a href=""><button type="button" class="btn btn-outline-danger">Buy Now</button></a>
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------------END----------- -->
+
+                    <!-- ------------sapphire.unstitched cards 3 ----------- -->
+
+                    <div class="unstitched-cards">
+                        <img src="./sapphire/un-5.png" alt="Sapphire Unstitched collection" id="imgg1"> <br>
+                        <div class="dress"><img src="./sapphire/un-6.png" alt="Sapphire Unstitched collection"></div>
+                        <!-- Button trigger modal 3 -->
+                        <button type="button" class="btne" data-bs-toggle="modal" data-bs-target="#exampleModal-14">add
+                            to
+                            cart</button>
+                    </div>
+
+
+                    <!-- Modal 3-->
+                    <div class="modal fade" id="exampleModal-14" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h6 class="modal-title " id="exampleModalLabel">3 Piece - Printed Lawn Suit</h6>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="./sapphire/un-5.png" alt=""> <img src="./sapphire/un-6.png" alt="">
+                                    <h4 class="price"> PKR 3,290.00 </h4>
+                                    <hr>
+                                    <h6>Details</h6>
+                                    <hr>
+                                    <div class="info-list">
+                                        <ul>
+                                            <li>size</li>
+                                            <li>colour</li>
+                                            <li>product</li>
+                                      
+                                            <li>fabric</li>
+                                            <li>disclaimer</li>
+                                        </ul>
+                                        <ul>
+                                            <li>3 Piece</li>
+                                            <li>red</li>
+                                            <li>Unstitched 3 Piece </li>
+                                         
+                                            <li>Lawn</li>
+                                            <li>Actual product color may vary slightly from the image.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <a href=""><button type="button" class="btn btn-outline-danger">Buy Now</button></a>
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------------END----------- -->
+
+                    <!-- ------------sapphire.unstitched cards 4 ----------- -->
+
+                    <div class="unstitched-cards">
+                        <img src="./sapphire/un-7.png" alt="Sapphire Unstitched collection" id="imgg1"> <br>
+                        <div class="dress"><img src="./sapphire/un-8.png" alt="Sapphire Unstitched collection"></div>
+                        <!-- Button trigger modal 4 -->
+                        <button type="button" class="btne" data-bs-toggle="modal" data-bs-target="#exampleModal-15">add
+                            to
+                            cart</button>
+                    </div>
+
+
+
+                    <!-- Modal 4-->
+                    <div class="modal fade" id="exampleModal-15" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h6 class="modal-title " id="exampleModalLabel">2 Piece - Printed Lawn Suit</h6>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="./sapphire/un-7.png" alt=""> <img src="./sapphire/un-8.png" alt="">
+                                    <h4 class="price"> PKR 2,390.00 </h4>
+                                    <hr>
+                                    <h6>Details</h6>
+                                    <hr>
+                                    <div class="info-list">
+                                        <ul>
+                                            <li>size</li>
+                                            <li>colour</li>
+                                            <li>product</li>
+                                      
+                                            <li>fabric</li>
+                                            <li>disclaimer</li>
+                                        </ul>
+                                        <ul>
+                                            <li>2 Piece</li>
+                                            <li>Shocking Pink and off white</li>
+                                            <li>unstitched 2 piece, shirt trouser</li>
+                                         
+                                            <li>Lawn</li>
+                                            <li>Actual product color may vary slightly from the image.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <a href=""><button type="button" class="btn btn-outline-danger">Buy Now</button></a>
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------------END----------- -->
+
+                    <!-- ------------sapphire.unstitched cards 5 ----------- -->
+                    <div class="unstitched-cards">
+                        <img src="./sapphire/un-9.png" alt="Sapphire Unstitched collection" id="imgg1"> <br>
+                        <div class="dress"><img src="./sapphire/un-10.png" alt="Sapphire Unstitched collection"></div>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btne" data-bs-toggle="modal" data-bs-target="#exampleModal-16">add
+                            to
+                            cart</button>
+                    </div>
+
+
+
+                    <!-- Modal 5-->
+                    <div class="modal fade" id="exampleModal-16" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h6 class="modal-title " id="exampleModalLabel">3 Piece - Printed Lawn Suit</h6>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="./sapphire/un-9.png" alt=""> <img src="./sapphire/un-10.png" alt="">
+                                    <h4 class="price"> PKR 3,290.00</h4>
+                                    <hr>
+                                    <h6>Details</h6>
+                                    <hr>
+                                    <div class="info-list">
+                                        <ul>
+                                            <li>size</li>
+                                            <li>colour</li>
+                                            <li>product</li>
+                                      
+                                            <li>fabric</li>
+                                            <li>disclaimer</li>
+                                        </ul>
+                                        <ul>
+                                            <li>3 Piece</li>
+                                            <li>Olive green and purple</li>
+                                            <li>Unstitched 3 Piece</li>
+                                         
+                                            <li>Lawn</li>
+                                            <li>Actual product color may vary slightly from the image.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <a href=""><button type="button" class="btn btn-outline-danger">Buy Now</button></a>
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------------END----------- -->
+
+                    <!-- ------------sapphire.unstitched cards 6 ----------- -->
+
+                    <div class="unstitched-cards">
+                        <img src="./sapphire/un-11.png" alt="Sapphire Unstitched collection" id="imgg1"> <br>
+                        <div class="dress"><img src="./sapphire/un-12.png" alt="Sapphire Unstitched collection"></div>
+                        <!-- Button trigger modal 6 -->
+                        <button type="button" class="btne" data-bs-toggle="modal" data-bs-target="#exampleModal-17">add
+                            to
+                            cart</button>
+                    </div>
+
+
+
+                    <!-- Modal 6-->
+                    <div class="modal fade" id="exampleModal-17" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h6 class="modal-title " id="exampleModalLabel">2 Piece - Printed Lawn Suit</h6>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="./sapphire/un-11.png" alt=""> <img src="./sapphire/un-12.png" alt="">
+                                    <h4 class="price">PKR 2,390.00</h4>
+                                    <hr>
+                                    <h6>Details</h6>
+                                    <hr>
+                                    <div class="info-list">
+                                        <ul>
+                                            <li>size</li>
+                                            <li>colour</li>
+                                            <li>product</li>
+                                      
+                                            <li>fabric</li>
+                                            <li>disclaimer</li>
+                                        </ul>
+                                        <ul>
+                                            <li>2 Piece</li>
+                                            <li>Off white and pink</li>
+                                            <li>Unstitched 2 Piece, shirt dupatta </li>
+                                         
+                                            <li>Lawn</li>
+                                            <li>Actual product color may vary slightly from the image.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <a href=""><button type="button" class="btn btn-outline-danger">Buy Now</button></a>
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------------END----------- -->
+
+                    <!-- ------------sapphire.unstitched cards 7 ----------- -->
+
+                    <div class="unstitched-cards">
+                        <img src="./sapphire/un-13.png" alt="Sapphire Unstitched collection" id="imgg1"> <br>
+                        <div class="dress"><img src="./sapphire/un-14.png" alt="Sapphire Unstitched collection"></div>
+                        <!-- Button trigger modal 7 -->
+                        <button type="button" class="btne" data-bs-toggle="modal" data-bs-target="#exampleModal-18">add
+                            to
+                            cart</button>
+                    </div>
+
+
+                    <!-- Modal 7-->
+                    <div class="modal fade" id="exampleModal-18" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h6 class="modal-title " id="exampleModalLabel">3 Piece - Printed Lawn Suit</h6>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="./sapphire/un-13.png" alt=""> <img src="./sapphire/un-14.png" alt="">
+                                    <h4 class="price">PKR 2,290.00</h4>
+                                    <hr>
+                                    <h6>Details</h6>
+                                    <hr>
+                                    <div class="info-list">
+                                        <ul>
+                                            <li>size</li>
+                                            <li>colour</li>
+                                            <li>product</li>
+                                      
+                                            <li>fabric</li>
+                                            <li>disclaimer</li>
+                                        </ul>
+                                        <ul>
+                                            <li>3 Piece</li>
+                                            <li>Black</li>
+                                            <li>Unstitched 3 Piece</li>
+                                         
+                                            <li>Lawn</li>
+                                            <li>Actual product color may vary slightly from the image.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <a href=""><button type="button" class="btn btn-outline-danger">Buy Now</button></a>
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------------END----------- -->
+
+                    <!-- ------------sapphire.unstitched cards 8 ----------- -->
+
+                    <div class="unstitched-cards">
+                        <img src="./sapphire/un-15.png" alt="Sapphire Unstitched collection" id="imgg1"> <br>
+                        <div class="dress"><img src="./sapphire/un-16.png" alt="Sapphire Unstitched collection"></div>
+                        <!-- Button trigger modal 8 -->
+                        <button type="button" class="btne" data-bs-toggle="modal" data-bs-target="#exampleModal-19">add
+                            to
+                            cart</button>
+                    </div>
+
+
+
+                    <!-- Modal 8-->
+                    <div class="modal fade" id="exampleModal-19" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h6 class="modal-title " id="exampleModalLabel">3 Piece - Printed Lawn Suit</h6>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="./sapphire/un-15.png" alt=""> <img src="./sapphire/un-16.png" alt="">
+                                    <h4 class="price"> PKR 3,290.00 </h4>
+                                    <hr>
+                                    <h6>Details</h6>
+                                    <hr>
+                                    <div class="info-list">
+                                        <ul>
+                                            <li>size</li>
+                                            <li>colour</li>
+                                            <li>product</li>
+                                      
+                                            <li>fabric</li>
+                                            <li>disclaimer</li>
+                                        </ul>
+                                        <ul>
+                                            <li>3 Piece</li>
+                                            <li>Lime Green</li>
+                                            <li>Unstitched 3 Piece</li>
+                                         
+                                            <li>Lawn</li>
+                                            <li>Actual product color may vary slightly from the image.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <a href=""><button type="button" class="btn btn-outline-danger">Buy Now</button></a>
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------------END----------- -->
+
+                    <!-- ------------sapphire.unstitched cards 9 ----------- -->
+                    <div class="unstitched-cards">
+                        <img src="./sapphire/un-17.png" alt="Sapphire Unstitched collection" id="imgg1"> <br>
+                        <div class="dress"><img src="./sapphire/un-18.png" alt="Sapphire Unstitched collection"></div>
+                        <!-- Button trigger modal 9 -->
+                        <button type="button" class="btne" data-bs-toggle="modal" data-bs-target="#exampleModal-20">add
+                            to
+                            cart</button>
+                    </div>
+
+
+
+                    <!-- Modal 9-->
+                    <div class="modal fade" id="exampleModal-20" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h6 class="modal-title " id="exampleModalLabel">2 Piece - Printed Lawn Suit</h6>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="./sapphire/un-17.png" alt=""> <img src="./sapphire/un-18.png" alt="">
+                                    <h4 class="price"> PKR 2,290.00</h4>
+                                    <hr>
+                                    <h6>Details</h6>
+                                    <hr>
+                                    <div class="info-list">
+                                        <ul>
+                                            <li>size</li>
+                                            <li>colour</li>
+                                            <li>product</li>
+                                      
+                                            <li>fabric</li>
+                                            <li>disclaimer</li>
+                                        </ul>
+                                        <ul>
+                                            <li>2 Piece</li>
+                                            <li>Magenta</li>
+                                            <li>Unstitched 2 Piece, shirt dupatta</li>
+                                         
+                                            <li>Lawn</li>
+                                            <li>Actual product color may vary slightly from the image.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <a href=""><button type="button" class="btn btn-outline-danger">Buy Now</button></a>
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------------END----------- -->
+
+                    <!-- ------------sapphire.unstitched cards 10 ----------- -->
+
+                    <div class="unstitched-cards">
+                        <img src="./sapphire/un-19.png" alt="Sapphire Unstitched collection" id="imgg1"> <br>
+                        <div class="dress"><img src="./sapphire/un-20.png" alt="Sapphire Unstitched collection"></div>
+                        <!-- Button trigger modal 10 -->
+                        <button type="button" class="btne" data-bs-toggle="modal" data-bs-target="#exampleModal-21">add
+                            to
+                            cart</button>
+                    </div>
+
+
+
+                    <!-- Modal 10-->
+                    <div class="modal fade" id="exampleModal-21" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h6 class="modal-title " id="exampleModalLabel">3 Piece - Printed Lawn Suit</h6>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="./sapphire/un-19.png" alt=""> <img src="./sapphire/un-20.png" alt="">
+                                    <h4 class="price">PKR 3,290.00</h4>
+                                    <hr>
+                                    <h6>Details</h6>
+                                    <hr>
+                                    <div class="info-list">
+                                        <ul>
+                                            <li>size</li>
+                                            <li>colour</li>
+                                            <li>product</li>
+                                      
+                                            <li>fabric</li>
+                                            <li>disclaimer</li>
+                                        </ul>
+                                        <ul>
+                                            <li>3 Piece</li>
+                                            <li>Yellow</li>
+                                            <li>Unstitched 3 Piece</li>
+                                         
+                                            <li>Lawn</li>
+                                            <li>Actual product color may vary slightly from the image.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <a href=""><button type="button" class="btn btn-outline-danger">Buy Now</button></a>
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------------END----------- -->
+
+                    <!-- ------------sapphire.unstitched cards 11 ----------- -->
+
+                    <div class="unstitched-cards">
+                        <img src="./sapphire/un-21.png" alt="Sapphire Unstitched collection" id="imgg1"> <br>
+                        <div class="dress"><img src="./sapphire/un-22.png" alt="Sapphire Unstitched collection"></div>
+                        <!-- Button trigger modal 11 -->
+                        <button type="button" class="btne" data-bs-toggle="modal" data-bs-target="#exampleModal-22">add
+                            to
+                            cart</button>
+                    </div>
+
+
+                    <!-- Modal 11-->
+                    <div class="modal fade" id="exampleModal-22" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h6 class="modal-title " id="exampleModalLabel">3 Piece - Printed Lawn Suit</h6>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="./sapphire/un-21.png" alt=""> <img src="./sapphire/un-22.png" alt="">
+                                    <h4 class="price">PKR 3,290.00</h4>
+                                    <hr>
+                                    <h6>Details</h6>
+                                    <hr>
+                                    <div class="info-list">
+                                        <ul>
+                                            <li>size</li>
+                                            <li>colour</li>
+                                            <li>product</li>
+                                      
+                                            <li>fabric</li>
+                                            <li>disclaimer</li>
+                                        </ul>
+                                        <ul>
+                                            <li>3 Piece</li>
+                                            <li>Occur and Black</li>
+                                            <li>Unstitched 3 Piece</li>
+                                         
+                                            <li>Lawn</li>
+                                            <li>Actual product color may vary slightly from the image.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <a href=""><button type="button" class="btn btn-outline-danger">Buy Now</button></a>
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------------END----------- -->
+
+                    <!-- ------------sapphire.unstitched cards 12 ----------- -->
+
+                    <div class="unstitched-cards">
+                        <img src="./sapphire/un-23.png" alt="Sapphire Unstitched collection" id="imgg1"> <br>
+                        <div class="dress"><img src="./sapphire/un-24.png" alt="Sapphire Unstitched collection"></div>
+                        <!-- Button trigger modal 12 -->
+                        <button type="button" class="btne" data-bs-toggle="modal" data-bs-target="#exampleModal-23">add
+                            to
+                            cart</button>
+                    </div>
+
+
+
+                    <!-- Modal 12-->
+                    <div class="modal fade" id="exampleModal-23" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h6 class="modal-title " id="exampleModalLabel">2 Piece - Printed Lawn Suit</h6>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="./sapphire/un-23.png" alt=""> <img src="./sapphire/un-24.png" alt="">
+                                    <h4 class="price"> PKR 2,190.00 </h4>
+                                    <hr>
+                                    <h6>Details</h6>
+                                    <hr>
+                                    <div class="info-list">
+                                        
+                                        <ul>
+                                            <li>size</li>
+                                            <li>colour</li>
+                                            <li>product</li>
+                                      
+                                            <li>fabric</li>
+                                            <li>disclaimer</li>
+                                        </ul>
+
+                                        <ul>
+                                            <li>2 Piece</li>
+                                            <li>Yellow</li>
+                                            <li>Unstitched 2 Piece, shirt trouser </li>
+                                         
+                                            <li>Lawn</li>
+                                            <li>Actual product color may vary slightly from the image.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <a href=""><button type="button" class="btn btn-outline-danger">Buy Now</button></a>
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+    
+
+        <!--  THIS IS FOOTER SECTION-->
+        <footer>
+            <div class="about">
+
+
+                <div class="box1">
+                    <img src="images/logo-removebg-preview.png" alt="">
+                    <h4>Madam's Boutique</h4>
+                </div>
+                <div class="box1 margin">
+                    <h3>quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="brands.html">brands</a></li>
+                        <li><a href="designers.html">designers</a></li>
+                        <li><a href="contact.html">contacts</a></li>
+                        <li><a href="about.html">about us</a></li>
+                    </ul>
+                </div>
+                <div class="box1">
+                    <h3>contact info</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-phone"></i> +1 5558 55489 55</li>
+
+                        <li><i class="fa-solid fa-envelope"></i> madam'sboutique@example.com</li>
+                        <li><i class="fa-solid fa-location-dot"></i>main autobhan,hyderabad pakistan.</li>
+                    </ul>
+                </div>
+                <div class="box1">
+                    <h3>follow us</h3>
+
+                    <i id="slide" class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+
+                </div>
+
+
+            </div>
+
+
+
+            <span> <i class="fa-regular fa-copyright"></i> Copyright 2023, All Rights Reserved.</span>
+        </footer>
+        <!-- footer end -->
+
+</body>
+
+<script src="./bootstrap.min.js">
+</script>
+<script>
+    let hamberger = document.getElementById("hamberger");
+
+    let nav = document.querySelector(".nav1 ul");
+
+    console.log(nav);
+
+    hamberger.addEventListener('click', () => {
+
+        nav.classList.toggle("active");
+        console.log("clicking");
+
+    });
+</script>
+
+</html>

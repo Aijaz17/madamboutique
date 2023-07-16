@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: popins;
+
+}
+.unstitched-cards{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: relative;
+    transition: all .4s ease;
+
+}
+.unstitched-cards:hover{
+    transform: scale(1.01);
+    /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; */
+    border: 4px solid #f2f2f2;
+}
+.unstitched .btne{
+
+    text-transform: capitalize;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: bolder;
+    border: 2px solid rgb(218, 85, 130);
+    color: rgb(218, 85, 130);
+    outline: none;
+    border-radius: 0%;
+    background-color: white;
+}
+.unstitched .btne:hover{
+    color:white;
+    background-color:rgb(218, 85, 130);
+
+}
+.unstitched{
+    margin: 50px 2%;
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    grid-template-columns: repeat(auto-fit,minmax(300px,auto));
+    grid-gap: 30px;
+
+}
+.unstitched img{
+    width: 100%;
+
+}
+.size{
+    position: absolute;
+    bottom: 54px;
+    padding: 10px 0;
+    text-align: center;
+    background-color: rgba(153, 157, 157, 0.5);
+    font-weight: bolder;
+    word-spacing: 20px;
+    width: 100%;
+}
+
+.unstitched-cards p {
+	margin-top: 0;
+	margin-bottom: 0px !important;
+}
+
+.dress{
+   position: absolute;
+   top: 0;
+   display: none;
+
+}
+.unstitched-cards:hover .dress{
+   display: block;
+}
+
+
+
+/* ------modal css --- */
+
+.info-list{
+    display: flex;
+}
+.info-list li{
+    list-style-type: none;
+    text-transform: capitalize;
+    line-height: 30px;
+    font-size: small;
+
+}
+.modal-body img{
+    height: 45%;
+    width: 45%;
+    margin-bottom: 10px;
+    padding: 0 15px;
+}
